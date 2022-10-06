@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity1"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_link"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="www.palembang.go.id"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:backgroundTint="#C1ECB668"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Us"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_link"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="Log in"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:backgroundTint="#C1ECB668"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_visit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:backgroundTint="#C1082AFB"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_menyediakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menyediakan air bersih, sehat dan terjag kualitasnya"
+        android:layout_marginBottom="64dp"
+        android:layout_marginHorizontal="16dp"
+        android:textSize="18sp"
+        android:textColor="#EAB107"
+        app:layout_constraintBottom_toTopOf="@+id/btn_signup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PALEMBANG WATER"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="64sp"
+        android:textColor="#EAB107"
+        app:layout_constraintBottom_toTopOf="@+id/tv_menyediakan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

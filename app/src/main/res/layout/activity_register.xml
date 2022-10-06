@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create your new account"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#867A9F"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_person_24"
+        android:hint="Full Name"
+        android:background="@drawable/bg_corner"
+        android:backgroundTint="#F6DC8D"
+        android:padding="12dp"
+        android:drawableTint="#0C2EEA"
+        />
+
+    <EditText
+        android:id="@+id/et_negara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:hint="Country"
+        android:background="@drawable/bg_corner"
+        android:backgroundTint="#F6DC8D"
+        android:padding="12dp"
+        android:drawableTint="#0C2EEA"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:hint="Email"
+        android:background="@drawable/bg_corner"
+        android:drawableStart="@drawable/ic_email_24"
+        android:backgroundTint="#F6DC8D"
+        android:padding="12dp"
+        android:drawableTint="#0C2EEA"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:background="@drawable/bg_corner"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:backgroundTint="#F6DC8D"
+        android:padding="12dp"
+        android:drawableTint="#0C2EEA"
+        />
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="50dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:background="@drawable/bg_corner"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:backgroundTint="#F6DC8D"
+        android:padding="12dp"
+        android:drawableTint="#0C2EEA"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="SIGN UP"
+        android:layout_marginTop="16dp"
+        app:cornerRadius="16dp"
+        />
+
+</LinearLayout>
