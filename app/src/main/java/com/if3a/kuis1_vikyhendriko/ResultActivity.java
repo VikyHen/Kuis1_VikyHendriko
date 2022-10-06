@@ -5,9 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class ResultActivity extends AppCompatActivity {
-    private EditText tvNama, tvNegara, tvEmail;
+    private TextView tvNama, tvNegara, tvEmail;
     String nama, negara, email;
 
     @Override
